@@ -4,3 +4,7 @@ bin
 .envrc
 dist/
 .idea
+.pytest_cache
+.DS_Store
+*.pyc
+__pycache__/

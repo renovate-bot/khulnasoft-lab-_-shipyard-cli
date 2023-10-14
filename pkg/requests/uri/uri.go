@@ -8,7 +8,7 @@ import (
 )
 
 func CreateResourceURI(action, resource, id, subresource string, params map[string]string) string {
-	baseURL := "https://shipyard.build/api/v1"
+	baseURL := "https://shipyard.khulnasoft.com/api/v1"
 	if value := os.Getenv("SHIPYARD_BUILD_URL"); value != "" {
 		baseURL = value
 	}
