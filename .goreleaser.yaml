@@ -35,12 +35,12 @@ brews:
 
     commit_author:
       name: shipyard
-      email: hello@shipyard.build
+      email: hello@shipyard.khulnasoft.com
 
     commit_msg_template: "Brew formula update for {{ .ProjectName }} version {{ .Tag }}"
     folder: Formula
 
-    homepage: "https://shipyard.build"
+    homepage: "https://shipyard.khulnasoft.com"
     description: "A tool to manage Ephemeral Environments on the Shipyard platform"
     license: "Apache2"
 

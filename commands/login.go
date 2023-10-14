@@ -70,7 +70,7 @@ func login() error {
 	}()
 
 	display.Println("Opening the default web browser...")
-	backendURL := fmt.Sprintf("https://shipyard.build/api/me/user-token/cli?callbackUrl=http://%s", server.Addr)
+	backendURL := fmt.Sprintf("https://shipyard.khulnasoft.com/api/me/user-token/cli?callbackUrl=http://%s", server.Addr)
 	if err := browser.OpenURL(backendURL); err != nil {
 		return err
 	}

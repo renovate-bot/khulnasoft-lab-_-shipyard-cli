@@ -27,7 +27,7 @@ save your API token in a local config. You're ready to start running commands.
 Set your Shipyard API token as the value of the `SHIPYARD_API_TOKEN` environment variable.
 Or set it as the value for the `api_token` config key.
 
-You can get it by going to [your profile page](https://shipyard.build/profile).
+You can get it by going to [your profile page](https://shipyard.khulnasoft.com/profile).
 
 ### Set a Shipyard token
 
@@ -35,7 +35,7 @@ You can get it by going to [your profile page](https://shipyard.build/profile).
 shipyard set token
 ```
 
-You can get in touch with us at [support@shipyard.build](mailto:support@shipyard.build) if you would like to enable API
+You can get in touch with us at [support@shipyard.khulnasoft.com](mailto:support@shipyard.khulnasoft.com) if you would like to enable API
 access for your org. If you have any other questions, feel free to join
 our community [Slack](https://join.slack.com/t/shipyardcommunity/shared_invite/zt-x830cx39-BuiQKZwvhG7zGRTXAvojVQ).
 
